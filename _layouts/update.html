@@ -1,0 +1,13 @@
+---
+layout: post
+---
+
+<ul class="post-list">
+    {% for data in site.data.UpdateList %}
+    <li>
+        <h2>
+            <a class="post-link" href="{{site.url}}{{ data.url }}">{{ data.version }}</a>
+        </h2>
+    </li>
+    {% endfor %}
+</ul>
