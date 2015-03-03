@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "GET PBE"
+title:  "Download PBE (write md)"
 date:   2015-03-03 15:44:35
 categories: jekyll update
 ---
@@ -16,3 +16,4 @@ Download PBE:
 Update PBE:
 
 [PBEServer update pkg](sssss)
+
