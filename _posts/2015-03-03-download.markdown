@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "GET PBE"
+date:   2015-03-03 15:44:35
+categories: jekyll update
+---
+
+Download PBE:
+
+[PBEServer v0.1]({{ site.url }}/assert/PBEServer/PCMgr_Setup_10_0_98_3001不能测第三方插件web上不能添加插件.exe)
+
+[PBEServer v0.2]({{ site.url }}/assert/PBEServer/PCMgr_Setup_10_0_98_3001不能测第三方插件web上不能添加插件.exe)
+
+[PBEServer v0.3]({{ site.url }}/assert/PBEServer/PCMgr_Setup_10_0_98_3001不能测第三方插件web上不能添加插件.exe)
+
+Update PBE:
+
+[PBEServer update pkg](sssss)
