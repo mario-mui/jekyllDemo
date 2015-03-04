@@ -3,10 +3,27 @@ layout: post
 ---
 
 <ul class="post-list">
+    <li>list version of pbeServer</li>
     {% for data in site.data.UpdateList %}
     <li>
         <h2>
-            <a class="post-link" href="{{site.url}}{{ data.url }}">{{ data.version }}</a>
+            <a href="{{site.url}}{{ data.url }}">{{ data.version }}</a>
+        </h2>
+    </li>
+    {% endfor %}
+    <li>list version of pbeData</li>
+    {% for data in site.data.UpdateData %}
+    <li>
+        <h2>
+            <a href="{{site.url}}{{ data.url }}">{{ data.version }}</a>
+        </h2>
+    </li>
+    {% endfor %}
+    <li>list version of pbeClient</li>
+    {% for data in site.data.UpdateClient %}
+    <li>
+        <h2>
+            <a href="{{site.url}}{{ data.url }}">{{ data.version }}</a>
         </h2>
     </li>
     {% endfor %}

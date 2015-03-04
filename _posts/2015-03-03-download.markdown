@@ -15,5 +15,5 @@ Download PBE:
 
 Update PBE:
 
-[PBEServer update pkg](sssss)
+[PBEServer update pkg]
 
