@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: detailList
 title:  "Document (write md)"
 date:   2015-03-04 10:44:35
 categories: jekyll update

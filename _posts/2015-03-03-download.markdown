@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: detailList
 title:  "Download PBE (write md)"
 date:   2015-03-03 15:44:35
 categories: jekyll update
