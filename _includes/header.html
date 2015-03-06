@@ -1,20 +1,21 @@
 <header class="site-header">
-
   <div class="wrapper">
-    <div class="col-md-8">
-      <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
-    </div>
-    <div class="col-md-4">
-      <nav class="site-nav">
-        <div class="trigger">
-          {% assign pages = site.pages | sort:"weight"  %}
-          {% for page in pages %}
-            {% if page.title %}
-            <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-            {% endif %}
-          {% endfor %}
-        </div>
-      </nav>
+    <div class="row header">
+      <div class="col-md-8">
+        <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+      </div>
+      <div class="col-md-4">
+        <nav class="site-nav">
+          <div class="trigger">
+            {% assign pages = site.pages | sort:"weight"  %}
+            {% for page in pages %}
+              {% if page.title %}
+              <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+              {% endif %}
+            {% endfor %}
+          </div>
+        </nav>
+      </div>
     </div>
   </div>
 </header>

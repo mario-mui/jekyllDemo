@@ -1,0 +1,16 @@
+- title: 全网信息 了如指掌
+  desc: 全网一键体检，病毒，木马，漏洞情况统一呈现；全网硬件，软件实时展现
+  img: /img/phones.png
+  type: imgLeft
+- title: 病毒
+  desc: 全网一键体检，病毒，木马，漏洞情况统一呈现；全网硬件，软件实时展现
+  img: /img/phones.png
+  type: imgRight
+- title: 主防
+  desc: 全网一键体检，病毒，木马，漏洞情况统一呈现；全网硬件，软件实时展现
+  img: /img/phones.png
+  type: imgLeft
+- title: 漏洞
+  desc: 全网一键体检，病毒，木马，漏洞情况统一呈现；全网硬件，软件实时展现
+  img: /img/phones.png
+  type: imgRight

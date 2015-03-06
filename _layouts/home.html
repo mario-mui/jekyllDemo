@@ -1,0 +1,70 @@
+---
+layout: default
+
+---
+
+<div class="home">
+  <div class="row home-header">
+    <div class="col-md-6">
+      <div class="img-div">
+        <i class="header-img"></i>
+      </div>
+    </div>
+    <div class="col-md-1"></div>
+    <div class="col-md-4 header-content">
+      <h4>电脑管家--企业版</h4>
+      <h2>全新来袭，全面保护</h2>
+      <h5>电脑管家融合了清理垃圾，电脑加速,修复漏洞，软件管理，电脑诊所等一系列协助用户管理电脑的功能</h5>
+      <div>
+        <div>
+          <button class="btn btn-success"> 下载安装包</button>
+        </div>
+        <div>
+          <h6>最新版本 V10.5</h6>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row home-content-title">
+    <div class="col-md-4"></div>
+    <div class="col-md-4">
+      <h2 class="home-content-text-title">产品简介</h2>
+      <h6 class="home-content-text-desc">电脑管家融合了清理垃圾，电脑加速,修复漏洞，软件管理，电脑诊所等一系列协助用户管理电脑的功能</h6>
+    </div>
+    <div class="col-md-4"></div>
+  </div>
+  <div class="row">
+    {% for post in site.data.home %}
+    {% if post.type == 'imgLeft' %}
+    <div class="content-section-a">
+      <div class="row">
+        <div class="col-md-5">
+          <div class="clearfix"></div>
+          <h2 class="section-heading home-content-text-title">{{ post.title }}</h2>
+          <h6 class="home-content-text-desc"> {{ post.desc }}</h6>
+        </div>
+        <div class="col-md-5 col-lg-offset-2">
+          <img class="img-responsive" src="{{ post.img }}" alt="">
+        </div>
+      </div>
+    </div>
+    {% else %}
+    <div class="content-section-b">
+      <div class="row">
+        <div class="col-md-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+          <div class="clearfix"></div>
+          <h2 class="section-heading home-content-text-title">{{ post.title }}</h2>
+          <h6 class="home-content-text-desc"> {{ post.desc }}</h6>
+        </div>
+        <div class="col-md-5 col-sm-pull-6  col-sm-6">
+          <img class="img-responsive" src="{{ post.img }}" alt="">
+        </div>
+      </div>
+    </div>
+    {% endif %}
+    {% endfor %}
+
+  </div>
+  {% include downloadLab.html %}
+
+  </div>
